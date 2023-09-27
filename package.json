@@ -4,9 +4,9 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "nodemon",
+    "start": "node src/server.js",
     "build": "tsc",
-    "dev": "node src/server.js"
+    "dev": "nodemon"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
